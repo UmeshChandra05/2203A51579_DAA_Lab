@@ -1,14 +1,17 @@
 #include<stdio.h>
 void SelectionSort(int x[], int n){
-    int Temp;
-    for (int i = 0; i < n-2 ; i++){                   // i <= n-2
-        for (int j = 0 ; j < n-1-i ; j++){            // j < n-1-i
-            if(x[j]>x[j+1]){
-                Temp = x[j];
-                x[j] = x[j+1];
-                x[j+1] = Temp;
-            }
+    int large,index;
+    for (int i = n-1; i > 0; i--){
+        large = x[i];
+        index = i;
+        for (int j = 1; j <= i; j++){
+            if (large < x[j]){
+                large = x[j];
+                index = j;
+            } 
         }
+        x[index] = x[i];
+        x[i] = large;
     }
 }
 
