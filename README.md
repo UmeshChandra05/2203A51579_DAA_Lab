@@ -15,7 +15,7 @@
 2. [Program 2:](https://github.com/UmeshChandra05/2203A51579_DAA_Lab/blob/main/InsertionSort.c) Insertion Sort
 3. [Program 3:](https://github.com/UmeshChandra05/2203A51579_DAA_Lab/blob/main/SelectionSort.c) Selection Sort
 
-## Lab 3(Scenario Based Sorting):
+## Lab 3 (Scenario Based Sorting):
 1. [Program 1:](https://github.com/UmeshChandra05/2203A51579_DAA_Lab/blob/main/Book.c) Sorting Books By Price Using Insertion Sort
 2. [Program 2:](https://github.com/UmeshChandra05/2203A51579_DAA_Lab/blob/main/Courier.c) Sorting Couriers By Tracking Number Using Bubble Sort
 3. [Program 3:](https://github.com/UmeshChandra05/2203A51579_DAA_Lab/blob/main/Product.c) Sorting Products By Price Using Selection Sort
