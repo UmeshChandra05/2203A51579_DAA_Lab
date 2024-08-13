@@ -1,13 +1,13 @@
 #include<stdio.h>
 #include<string.h>
 
-struct Book{
+struct Order{
     int Order_ID;
     char Item_Name[100];
     int Priority;
 };
 
-void InsertionSort(struct Book A[], int N) {
+void InsertionSort(struct Order A[], int N) {
     int i, j;
     struct Book key;
     for(i = 1; i < N; i++){
@@ -21,7 +21,7 @@ void InsertionSort(struct Book A[], int N) {
     }
 }
 
-void Display(struct Book A[], int N, int Choice){
+void Display(struct Order A[], int N, int Choice){
     if(Choice == 1){
         printf("\nSorted By Priority Low to High: \n");
         for(int i = 0; i < N; i++)
@@ -40,7 +40,7 @@ int main(){
     int Choice;
     printf("Enter Number of Books Information Needed to Sort: ");
     scanf("%d",&N);
-    struct Book A[N];
+    struct Order A[N];
     for(int i = 0; i < N; i++){
         printf("\nEnter Number of Book Information %d: (Book ID) (Item_Name - SingleWord) (Priority): ", i + 1);
         scanf("%d\t%s\t%d", &A[i].Order_ID,A[i].Item_Name, &A[i].Priority);
